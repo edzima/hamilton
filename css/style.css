@@ -213,7 +213,7 @@ font-size:20px;
 line-height: 1.5em;
 }
 .slider-grid p{
-margin:15px 0 30px 0;
+margin:2% 0 3% 0;
 color:#737d84;
 font-size:14px;
 line-height: 1.8em;
@@ -249,7 +249,11 @@ padding:0;
 }
 .article-grid img{
 width:100%;
-opacity:0.2;
+opacity:0.7;
+}
+
+.article-grid img:hover{
+opacity:1;
 }
 .article-grid a {
 display:block;
@@ -751,6 +755,10 @@ ul#filters {
 	width: 100%;
 	min-height: 80px;
 }
+.simple-in p{
+	text-align:center;
+}
+
 .port-grid {
 	padding: 0;
 	margin-left: 26px;
@@ -805,7 +813,7 @@ font-weight:bold;
 .footer{
 background:#242a2c;
 padding:100px 0 0 0;
-min-height: 620px;
+/*min-height: 620px; */
 }
 .footer-grid ul{
 margin:0;
