@@ -37,10 +37,11 @@ float:right;
   width: 25%;
   float: left;
   background: #8f6b52;
-  padding: 30px 50px 30px 227px;
+  padding: 20px 50px 20px 127px
 }
 .header-left a img{
 display:block;
+height:40px;
 }
 .header-right ul{
 	padding:0;
