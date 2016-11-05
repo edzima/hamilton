@@ -36,11 +36,12 @@ float:right;
 .header-left {
   width: 25%;
   float: left;
-  background: #63c6ae;
-  padding: 30px 50px 30px 227px;
+  background: #8f6b52;
+  padding: 20px 50px 20px 127px;
 }
 .header-left a img{
 display:block;
+width: 270px;
 }
 .header-right ul{
 	padding:0;
@@ -57,7 +58,7 @@ display:block;
 	text-decoration: none;
 	}
 .header-right ul li a:hover,.header-right ul li a.active {
-color:#63c6ae;
+color:#8f6b52;
 }
 /*-- menu --*/
 	.header-right span{
@@ -82,7 +83,7 @@ margin-top:250px;
   font-size: 30px;
   color: #ffffff;
   font-weight: 400;
-  background: #63c6ae;
+  background: #8f6b52;
   width: 60%;
   padding: 33px 0;
   text-align: center;
@@ -92,7 +93,7 @@ margin-top:250px;
   font-size: 17px;
   color: #ffffff;
   font-weight: 400;
-  background: #242a2c;
+  background: #e3c567;
   width: 50%;
   padding: 33px 0;
   text-align: center;
@@ -238,7 +239,7 @@ color:#ffffff;
 font-size:24px;
 }
 .article {
-background:#63c6ae;
+background:#8f6b52;
 padding:30px 0;
 }
 .col-md-2.article-grid{
@@ -247,9 +248,26 @@ position:relative;
 background:#242a2c;
 padding:0;
 }
+.article-grids{
+	padding-bottom:86px;
+	background-color:#8f6b52;
+}
+.see-more-back{
+	background-color:#8f6b52!important;
+}
 .article-grid img{
 width:100%;
+<<<<<<< HEAD
+opacity:0.7;
+}
+.see-more-back img{
+	opacity:0.3;
+}
+.article-grid img:hover{
+opacity:1;
+=======
 opacity:0.2;
+>>>>>>> refs/remotes/origin/Grzybek-css
 }
 .article-grid a {
 display:block;
@@ -261,7 +279,7 @@ display:block;
 margin:0 0 10px 0;
 font-size:16px;
 font-weight:400;
-color:#ffffff;
+color:#FDFFE8;
 display:inline-block;
 }
 .article-info {
@@ -271,9 +289,20 @@ bottom:0%;
 display:none;
 padding:15px 20px;
 }
+
+.see-more{
+	display:block;
+	position:absolute;
+	top:50%;
+	text-align:center;
+	width:100%;
+}
+.see-more p{
+	color: #FDFFE8;
+}
 .article-info p:nth-child(2) {
   font-size: 12px;
-  color: #63c6ae;
+  color: #8f6b52;
   margin: 0 0 0 0;
   }
 .article-info p a.plus{
@@ -764,8 +793,8 @@ ul#filters {
 /*-- //portfolio --*/
 .second-slider{
 padding:80px 0 100px 0;
-background:#63c6ae;
-border-bottom:10px solid #58b9a1;
+background:#FDFFE8;
+border-bottom:10px solid #f9ffb3;
 }
 .sec-slid-info{
 position:relative;
@@ -784,7 +813,7 @@ top:54% !important;
 .sec-slid-info h3{
 margin:0;
 font-size:30px;
-color:#ffffff;
+color:#3A160E;
 font-weight:400;
 text-align:center;
 font-style:italic;
@@ -793,7 +822,7 @@ line-height: 1.8em;
 .sec-slid-info p{
 margin:15px 0 0 0;
 font-size:18px;
-color:#ffffff;
+color:#3A160E;
 text-align:center;
 line-height: 1.8em;
 }
@@ -804,17 +833,24 @@ font-weight:bold;
 }
 .footer{
 background:#242a2c;
+<<<<<<< HEAD
+padding:20px 0 0 0;
+
+=======
 padding:100px 0 0 0;
 min-height: 620px;
+>>>>>>> refs/remotes/origin/Grzybek-css
 }
 .footer-grid ul{
 margin:0;
 padding:0;
+float:right;
 }
 .footer-grid ul li{
 list-style-type:none;
-display:block;
+display:inline;
 line-height:2.8em;
+padding:0 20px;
 }
 .footer-grid ul li a:hover,.footer-grid.logobtm a:hover{
 color:#63c6ae;
@@ -1405,13 +1441,13 @@ color:#737c85;
 	filter: alpha(opacity=0);
 }
 .copy-right p{
-margin:100px 0 0 0;
+margin:10px 0;
 color:#454e51;
 font-size:14px;
 text-align:center;
 }
 .copy-right p a{
-color:#63c6ae;
+color:#8f6b52;
 }
 .copy-right p a:hover{
 color:#454e51;
@@ -1525,9 +1561,7 @@ color:#454e51;
 	.error-page {
 	  min-height: 695px;
 	}
-	.footer {
-	  min-height: 525px;
-	}
+
 	.col-md-6.slider-grid {
 	  width: 48.5%;
 	}
@@ -1588,7 +1622,7 @@ color:#454e51;
 	}
 	.footer {
 	  padding: 70px 0 0 0;
-	  min-height: 460px;
+	 /* min-height: 460px; */
 	}
 	.services {
 	  padding: 70px 0;
@@ -1998,10 +2032,6 @@ color:#454e51;
 	  float: left;
 	  width: 15%;
 	}
-	.col-md-3.footer-grid {
-	  float: left;
-	  width: 30%;
-	}
 	.col-md-5.footer-grid {
 	  float: left;
 	  width: 37.8%;
@@ -2013,9 +2043,7 @@ color:#454e51;
 	.copy-right p {
 	  margin: 60px 0 0 0;
 	  }
-	.footer {
-	  min-height: 490px;
-	}
+
 	.col-md-4.services-grid {
 	  float: left;
 	  width: 50%;
@@ -2289,9 +2317,7 @@ span.menu {
 	  width: 90%;
 	  top: 54.7%;
 	}
-	.footer {
-	  min-height: 600px;
-	}
+
 	.how-we-help, .help-grids, .our-approach {
 	  padding: 60px 0;
 	}
@@ -2317,22 +2343,7 @@ span.menu {
 	.approach-grid p {
 	  margin: 12px 0 21px 0;
 	  }
-	.col-md-5.footer-grid {
-	  float: left;
-	  width: 39.8%;
-	}
-	.col-md-2.footer-grid{
-	  float: left;
-	  width: 100%;
-	}
-	.col-md-5.footer-grid {
-	  float: left;
-	  width: 100%;
-	}
-	.col-md-3.footer-grid {
-	  float: left;
-	  width: 100%;
-	}
+
 	.error-info h3 {
 	  font-size: 8em;
 	}
@@ -2542,7 +2553,7 @@ span.menu {
 	  margin: 24px 0 0 0;
 	  }
 	.footer {
-	  min-height: 640px;
+	 /* min-height: 640px; */
 	}
 	.col-md-4.services-grid {
 	  float: left;
@@ -2822,7 +2833,7 @@ span.menu {
 	  margin: 0px 0 0 0;
 	}
 	.footer {
-	  min-height: 800px;
+	/*  min-height: 800px; */
 	}
 	.sec-slid-info {
 	  width: 86.5%;
