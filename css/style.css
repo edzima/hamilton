@@ -771,7 +771,7 @@ ul#filters {
 
 .simple-in{
 	position: absolute;
-	top: 0;
+	bottom: 0;
 	background:rgba(255, 255, 255, 0.29);
 	width: 100%;
 	min-height: 80px;
@@ -1404,6 +1404,130 @@ color:#737c85;
 	line-height:1.8em;
 	margin:0 0 0 0;
 }
+
+
+/* Isotope */
+/* Isotope Filtering */
+.isotope-item {
+	z-index: 2;
+}
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+}
+/* Isotope CSS3 transitions */
+.isotope, .isotope .isotope-item {
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-ms-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+.isotope {
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	-ms-transition-property: height, width;
+	-o-transition-property: height, width;
+	transition-property: height, width;
+}
+.isotope .isotope-item {
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	-ms-transition-property: -ms-transform, opacity;
+	-o-transition-property: -o-transform, opacity;
+	transition-property: transform, opacity;
+}
+/* Disabling Isotope CSS3 transitions */
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+	-webkit-transition-duration: 0s;
+	-moz-transition-duration: 0s;
+	-ms-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s;
+}
+.isotope-item {
+	z-index: 2;
+	margin: 0 -1px;
+}
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+}
+
+/* Image Hover Zoom */
+a.mask {
+	text-decoration: none;
+	overflow: hidden;
+	display: block;
+}
+img.zoom-img {
+	width: 100%;
+	position: relative;
+	padding: 0;
+}
+img.zoom-img {
+	-webkit-transform: scale(1, 1);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transform: scale(1, 1);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 250ms;
+	box-shadow: 0px 0px 0px 0px #000; /*Firefox opacity flickr bug fix */
+}
+img.zoom-img:hover {
+	-webkit-transform: scale(1.15);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 750ms;
+	-moz-transform: scale(1.15);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 750ms;
+	overflow: hidden;
+	opacity: 0.7;
+}
+
+/* Gallery */
+.gallery a {
+	text-decoration: none;
+	overflow: hidden;
+	display: block;
+	margin-bottom: 30px;
+}
+.gallery a i, .gallery-slider a i {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	display: block;
+	margin: -22px 0 0 -22px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.gallery a:hover i, .gallery-slider a:hover i {
+	top: 45%;
+	opacity: 1;
+	transform: translateY(20);
+}
+.gallery a:hover i, .gallery-slider a:hover i {
+	opacity: 1;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
 /*-- //single-page --*/
 /*-- to-top --*/
 #toTop {
