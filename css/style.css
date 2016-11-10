@@ -26,7 +26,9 @@ margin:0;
 padding:0;
 }
 .header{
+/* 
 border-bottom:2px solid #000000;
+*/
 }
 .header-right {
 width:73%;
@@ -36,7 +38,7 @@ float:right;
 .header-left {
   width: 25%;
   float: left;
-  background: #8f6b52;
+ /* background: #8f6b52; */
   padding: 20px 50px 20px 127px;
 }
 .header-left a img{
