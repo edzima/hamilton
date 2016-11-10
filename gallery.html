@@ -9,7 +9,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 	<title>Infusion a Corporate Category Flat Bootstrap Responsive Website Template | 404 :: w3layouts</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<link rel="stylesheet" href="css/prettyPhoto.css">
 	<!--fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Sintony:700,400' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -23,7 +22,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- //for-mobile-apps -->
 	<!-- js -->
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
 	<!-- js -->
 	<!-- start-smooth-scrolling -->
 		<script type="text/javascript" src="js/move-top.js"></script>
@@ -37,14 +36,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 		</script>
 	<!-- start-smooth-scrolling -->
-	
-	<style>
-	#Container .mix{
-	display: none;
-}
-	</style>
-
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 
 </head>
 <body>
@@ -86,34 +77,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="portfolio-grid">
 			<div class="col-md-4 port-left">
 					<ul id="filters">
-						<li><span class="sort" data-filter="myorder:asc">ASC</span></li>
-						<li><span class="sort" data-filter="myorder:desc">DESC</span></li>
-						<li><span class="filter" data-filter="all">All</span></li>
-						<li><span class="filter" data-filter=".main">Main Gallery</span></li>
-				
-						<li><span class="filter" data-filter=".children">Children</span></li>
+						<li class="active"><span class="filter " data-filter="app card icon mov set">Vector Calculator</span> </li>
+						<li><span class="filter" data-filter="app"> Progress Bar</span></li>
+						<li><span class="filter" data-filter="card">Browser Surround</span></li>
+						<li><span class="filter" data-filter="icon">Vector Buttons</span></li>
+						<li><span class="filter" data-filter="set">Rating Stars</span></li>
+						<li><span class="filter" data-filter="mov">Icon Set</span></li>
 					</ul>
-		
 			</div>
 			<div class="col-md-8 port-right">
-				<div id="Container">
-				<!--main -->
+				<div id="portfoliolist">
 							<div class="port-grid">
-								<div class="portfolio mix main" style="display: inline-block; opacity: 1;">
+								<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
 									<div class="portfolio-wrapper ">		
 											<a href="#small-dialog1" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-												<img class="img-responsive" src="images/portraits/main/Ada de Maurier.jpg" alt=""  />
+												<img class="img-responsive" src="images/555.jpg" alt=""  />
 												<div class="simple-in">
-													<p>title</p>
+													<p>opis kurwa</p>
 												</div>
 											</a>
 																		
 									</div>
 								</div>				
-								<div class="portfolio mix main" style="display: inline-block; opacity: 1;">
+								<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
 										<div class="portfolio-wrapper">		
 											<a href="#small-dialog2" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-												<img class="img-responsive" src="images/portraits/main/Alexander Hamilton.jpg" alt=""  />
+												<img class="img-responsive" src="images/222.jpg" alt=""/>
 												<div class="simple-in one">
 													
 												</div>
@@ -124,61 +113,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								
 							</div>	
 							<div class="port-grid">
-								<div class="portfolio mix main" style="display: inline-block; opacity: 1;">
-									<div class="portfolio-wrapper ">		
-											<a href="#small-dialog1" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-												<img class="img-responsive" src="images/portraits/main/Alice Callander.jpg" alt=""  />
-												<div class="simple-in">
-													<p>title</p>
-												</div>
-											</a>
-																		
-									</div>
-								</div>				
-								<div class="portfolio mix main" style="display: inline-block; opacity: 1;">
-										<div class="portfolio-wrapper">		
-											<a href="#small-dialog2" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-												<img class="img-responsive" src="images/portraits/main/Aline Hay of Duns.jpg" alt=""  />
-												<div class="simple-in one">
-													
-												</div>
-											</a>
-																			
-										</div>
-								</div>		
-								
-							</div>	
-							<div class="port-grid">
-								<div class="portfolio mix main" style="display: inline-block; opacity: 1;">
-									<div class="portfolio-wrapper ">		
-											<a href="#small-dialog1" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-												<img class="img-responsive" src="images/portraits/main/Andrew Roberts.jpg" alt=""  />
-												<div class="simple-in">
-													<p>title</p>
-												</div>
-											</a>
-																		
-									</div>
-								</div>				
-								<div class="portfolio mix main" style="display: inline-block; opacity: 1;">
-										<div class="portfolio-wrapper">		
-											<a href="#small-dialog2" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-												<img class="img-responsive" src="images/portraits/children/4Hamilton.jpg" alt=""  />
-												<div class="simple-in one">
-													
-												</div>
-											</a>
-																			
-										</div>
-								</div>		
-								
-							</div>	
-						<!--children -->			
-							<div class="port-grid">
-								<div class="portfolio mix children"  style="display: inline-block; opacity: 1;">
+								<div class="portfolio mov mix_all" data-cat="mov" style="display: inline-block; opacity: 1;">
 									<div class="portfolio-wrapper ">		
 										<a href="#small-dialog3" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-										<img class="img-responsive" src="images/portraits/children/4Hamilton.jpg" alt=""  />
+										<img class="img-responsive" src="images/333.jpg" alt=""  />
 										<div class="simple-in three">
 													
 										</div>	
@@ -186,10 +124,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 																	
 									</div>
 								</div>	
-								<div class="portfolio mix children" style="display: inline-block; opacity: 1;">
+								<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
 									<div class="portfolio-wrapper ">		
 										<a href="#small-dialog4" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-											<img class="img-responsive" src="images/portraits/children/6Hamilton.jpg" alt=""  />
+											<img class="img-responsive" src="images/666.jpg" alt=""  />
 											<div class="simple-in four">
 												
 											</div>	
@@ -199,66 +137,136 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>			
 								
 							</div>
-							
 							<div class="port-grid">
-								<div class="portfolio mix children"  style="display: inline-block; opacity: 1;">
-									<div class="portfolio-wrapper ">		
-										<a href="#small-dialog3" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-										<img class="img-responsive" src="images/portraits/children/12Hamilton.jpg" alt=""  />
-										<div class="simple-in three">
-													
-										</div>	
-										</a>
-																	
-									</div>
-								</div>	
-								<div class="portfolio mix children" style="display: inline-block; opacity: 1;">
-									<div class="portfolio-wrapper ">		
-								
-											<img class="img-responsive" src="images/portraits/children/16Hamilton.jpg" alt=""  />
-											<div class="simple-in four">
+								<div class="portfolio mov mix_all" data-cat="mov" style="display: inline-block; opacity: 1;">
+									<div class="portfolio-wrapper">		
+										<a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+
+											<img class="img-responsive" src="images/444.jpg" alt=""  />
+											<div class="simple-in six">
 												
 											</div>	
 										</a>
-																		
-									</div>
-								</div>			
-								
-							</div>
-							
-							<div class="port-grid">
-								<div class="portfolio mix children"  style="display: inline-block; opacity: 1;">
-									<div class="portfolio-wrapper ">		
-									
-										<img class="img-responsive" src="images/portraits/children/25Hamilton-1.jpg" alt=""  />
-										<div class="simple-in three">
-													
-										</div>	
-										</a>
 																	
-									</div>
-								</div>	
-								<div class="portfolio mix children" style="display: inline-block; opacity: 1;">
-									<div class="portfolio-wrapper ">		
-											<img class="img-responsive" src="images/portraits/children/26Hamilton.jpg" alt=""  />
-											<div class="simple-in four">
-												
-											</div>	
-										</a>
-																		
 									</div>
 								</div>
-							</div>
+								<div class="portfolio set mix_all" data-cat="set" style="display: inline-block; opacity: 1;">
+									<div class="portfolio-wrapper">		
+										<a href="#small-dialog6" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+
+											<img class="img-responsive" src="images/555.jpg" alt=""  />						    
+												<div class="simple-in seven">
+													
+												</div>
+										</a>
+																	
+									</div>
+								</div>
 								
+							</div>	
 				</div>	
 			</div>	
-	
+			<!-- pop-up-box -->
+					<!-- script for pop-up-box -->
+					<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+					<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+					<!-- //script for pop-up-box -->
+					<div id="small-dialog1" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/555.jpg" alt="" />
+								
+						</div>
+					</div>
+					<div id="small-dialog2" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/222.jpg" alt="" />
+							
+						</div>
+					</div>
+					<div id="small-dialog3" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/333.jpg" alt="" />
+							
+						</div>
+					</div>
+					<div id="small-dialog4" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/666.jpg" alt="" />
+							
+						</div>
+					</div>
+					<div id="small-dialog5" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/444.jpg" alt="" />
+							
+						</div>
+					</div>
+					<div id="small-dialog6" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/555.jpg" alt="" />
+						
+						</div>
+					</div>
+					
+			<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+			</script>
+		<!-- //pop-up-box -->			
+			<!-- Script for gallery Here -->
+				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+							$(function () {
+								var filterList = {
+									init: function () {
+										// MixItUp plugin
+										// http://mixitup.io
+										$('#portfoliolist').mixitup({
+											targetSelector: '.portfolio',
+											filterSelector: '.filter',
+											effects: ['fade'],
+											easing: 'snap',
+											// call the hover effect
+											onMixEnd: filterList.hoverEffect()
+										});				
+									},
+									hoverEffect: function () {
+									
+										// Simple parallax effect
+										$('#portfoliolist .portfolio').hover(
+											function () {
+												$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+												$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+											},
+											function () {
+												$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+												$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+											}		
+										);				
+									}
+								};
+								// Run the show!
+								filterList.init();
+							});	
+					</script>
+				<!-- Gallery Script Ends -->
 				<div class="clearfix"> </div>
 		</div>
 	
 </div>
-
-
 <!-- //portfolio -->
 <!-- footer -->
 <div class="footer">
@@ -296,9 +304,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <!-- //footer -->
 <!-- smooth scrolling -->
-
-
-			<script type="text/javascript" src="js/jquery.mixitup.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 		/*
@@ -308,26 +313,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			scrollSpeed: 1200,
 			easingType: 'linear' 
 			};
-		*/		
-
-				
-		$(function(){
-
-		// Instantiate MixItUp:
-
-			$('#Container').mixItUp();
-
-		});
-		
-		
+		*/								
 		$().UItoTop({ easingType: 'easeOutQuart' });
-	
-	
-
 		});
 	</script>
-	
-
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
 
