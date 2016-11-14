@@ -21,6 +21,19 @@ h1,h2,h3,h4,h5,h6{
 p{
 	margin:0;
 }
+
+.p0{
+	padding-left:0!important;
+	padding-right:40px!important;
+	padding-bottom:1em!important;
+	text-align:justify;
+}
+.p1{
+	padding-left:0!important;
+	padding-right:40px!important;
+	padding-bottom:1em!important;
+}
+
 ul{
 margin:0;
 padding:0;
@@ -208,24 +221,25 @@ border-top:1px solid #e8e8e8;
 padding:100px 0;
 }
 .slider-grid h3{
-margin:0;
+margin:0 0 20 0;
 color:#737c85;
 font-size:20px;
 line-height: 1.5em;
 }
 .slider-grid p{
-margin:15px 0 30px 0;
+margin:0 0 15px 0;
 color:#737d84;
 font-size:14px;
 line-height: 1.8em;
+text-align:justify;
 }
 p.para-text{
-margin:15px 0;
+margin:0px 0;
 }
 .col-md-6.slider-grid{
 float:left;
 width: 49%;
-padding: 0 0 0 0;
+padding: 0 20 0 0;
 }
 .col-md-6.slider-grid:nth-child(1){
 margin-right:22px;
@@ -1167,14 +1181,24 @@ width:90%;
 }
 /*-- //business-page --*/
 /*-- how-we-help-page --*/
+.help-info {
+	margin-top:20px;
+}
 .help-info h3{
   color: #63c6ae;
+  
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+.help-info h3 span{
+  color: #8f6b52;
   margin: 0;
   font-size: 24px;
   font-weight: bold;
 }
 .how-we-help{
-padding:100px 0;
+padding:60px 0;
 }
 .help-grid h3{
   margin: 0;
@@ -1194,6 +1218,7 @@ margin: 0px 0 0px 0;
 font-size: 14px;
 line-height:1.8em;
 }
+
 .about-grid img{
 width:100%;
 }
@@ -1214,20 +1239,20 @@ background:#455357;
   font-weight: bold;
 }
 .about-grids{
-margin-top:50px;
+margin-top:20px;
 }
 .about-grid p{
 color: #737c85;
 margin: 0px 0;
 font-size: 14px;
-line-height: 2.4em;
+line-height: 2.0em;
 }
 .about-grid p:nth-child(5) {
  margin:0 0 30px 0;
 }
 .help-grids{
 background:#63c6ae;
-padding:100px 0;
+padding:60px 0;
 }
 .our-approach{
 padding:100px 0;
@@ -1371,7 +1396,7 @@ background:#737c85;
 	font-size:24px;
 	text-transform:uppercase;
 	color:#737c85;
-	margin:0 0 0px 0;
+	margin:0 0 14px 0;
 	font-weight: bold;
 }
 
@@ -1401,7 +1426,7 @@ color:#737c85;
 .blog-post p{
 	font-size:14px;
 	color:#737c85;
-	line-height:1.8em;
+	line-height:1em;
 	margin:0 0 0 0;
 }
 /*-- //single-page --*/
@@ -1709,7 +1734,7 @@ color:#454e51;
 	  font-size: 13px;
 	  }
 	.slider-grid p {
-	  font-size: 13px;
+	  font-size: 14px;
 	  }
 	.col-md-2.article-grid {
 	 width: 25%;
