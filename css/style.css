@@ -34,25 +34,31 @@ p{
 	padding-right:40px!important;
 	padding-bottom:1em!important;
 }
-
+.padding-zero{
+	/*padding:0!important; */
+}
 ul{
 margin:0;
 padding:0;
 }
 .header{
-		position: absolute;
-		z-index: 11;
+		position: fixed;
+		z-index: 111;
 		top: 0;
 		overflow: hidden;
 		width: 100%;
 				/*padding: 30px; */
-				/*-webkit-transition: padding-top .7s linear .4s;
-				transition: padding-top .7s linear .4s;*/
+		-webkit-transition: padding-top .2s linear .2s;
+		transition: padding-top .2s linear .2s;
 		-webkit-transition-delay: .2s;
 		transition-delay: .2s;
-		background: #FDFFF4;
-		background: -webkit-linear-gradient(top,rgba(253,255,244,1),transparent);
-		background: linear-gradient(180deg,rgba(253,255,244,1),transparent);
+		background-color: #FDFFF4; /* fallback color if gradients are not supported */
+		background: -webkit-linear-gradient(#fdfff4, rgba(255,255,255,0)); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+		background:    -moz-linear-gradient(to top, #fdfff4, transparent 100%); /* For Firefox (3.6 to 15) */
+		background:      -o-linear-gradient(to top, #fdfff4, transparent 100%); /* For old Opera (11.1 to 12.0) */ 
+		background:         linear-gradient(180deg, #fdfff4, transparent 100%); /* Standard syntax; must be last */
+		
+		
 }
 .scroll {
 		position: fixed;
@@ -702,10 +708,9 @@ a.callbacks_nav.callbacks1_nav.prev{
 	position: absolute;
 	top: 103%;
 	z-index: 999;
-	left: 46%;
+	left: 47%;
 	padding: 0;
 	margin: 0;
-left:46%;
 }
 
 .slider-top ul.social-slide{
@@ -900,11 +905,14 @@ padding:0;
 .footer-grid ul li{
 list-style-type:none;
 display:inline;
-line-height:2.8em;
 padding:0 20px;
 }
+.social  li i{
+	font-size:32px;
+}
+
 .footer-grid ul li a:hover,.footer-grid.logobtm a:hover{
-color:#63c6ae;
+color:#d4ba6b;
 }
 .footer-grid p{
 color:#8E6B52;
@@ -2602,6 +2610,14 @@ span.menu {
 	.bottom-info p {
 	  overflow: inherit;
 	  height: inherit;
+	}
+	
+#facebook {
+		
+	width:0px;
+    height:0px;
+    background-image:url('images/facebook.png');
+    padding:50px;
 	}
 }
 @media(max-width:600px){
