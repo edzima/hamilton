@@ -42,13 +42,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- header -->
 <div class="header">
 	<div class="header-left">
-		<a href="index.html"><img src="images/logo.png" alt=""/></a>
+		<a href="index.html"><img src="images/BHlogo.png" alt=""/></a>
 	</div>
 	<div class="header-right">
 		<span class="menu"><img src="images/menu.png" alt=""/></span>
-				<ul class="nav1">
+				<ul class="nav1" style="float: right;margin-right: 80px;">
 					<li><a href="index.html">HOME</a></li>
-					<li><a href="about.html">ABOUT ME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
 					<li><a href="gallery.html">GALLERY</a></li>
 					<li><a class="active" href="testimonials.html">TESTIMONIALS</a></li>
 					<li><a href="contact.html">CONTACT</a></li>
@@ -101,6 +101,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			capture the essence of a child’s freshness and beauty.</p>
 		</div>
 		<div class="clearfix"></div>
+		<div class="col-md-4 business-left">
+			<img src="images/shapeimage_6.jpg" alt=""/>
+		</div>
+		<div class="col-md-8 business-right">
+			<h3>Elizabeth Swarovski</h3>
+			<p>I am so happy that we had decided to do the portrait of my son Manfred with his beloved Bosco at that time. This painting captures so perfectly his shy, innocent smile and his beloved Bosco. It is a permanent reminder of the time of childhood and a pleasure for all the family.</p>
+		</div>
+		
+		<div class="clearfix"></div>
 	</div>
 </div>
 <!-- //business -->
@@ -142,6 +151,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- smooth scrolling -->
 	<script type="text/javascript">
 		$(document).ready(function() {
+			$(window).scroll(function() {    
+				
+				var scroll = $(window).scrollTop();
+
+				if (scroll >= 20) {
+					$(".header").addClass("scroll");
+				} else {
+					$(".header").removeClass("scroll");
+				}
+			});
+			
+		
 		/*
 			var defaults = {
 			containerID: 'toTop', // fading element id
