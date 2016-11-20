@@ -870,7 +870,6 @@ ul#filters {
 .second-slider{
 padding:80px 0 100px 0;
 background:#FDFFE8;
-border-bottom:10px solid #E3C567;
 }
 .sec-slid-info{
 position:relative;
@@ -905,6 +904,7 @@ line-height: 1.8em;
 .footer{
 background:#423126;
 padding:15px 0;
+border-top: 10px solid #E3C567;
 }
 .footer-grid ul{
 margin:0;
@@ -972,22 +972,23 @@ font-size:14px;
 	}
 .contact-left input[type="text"]{
 	width: 100%;
-	color: #63c6ae;
+	color:#8F6B52;
 	margin: 0 0px 23px 0;
 	font-size:14px;
 	padding: 12px 10px;
 	outline: none;
-	border: 1px solid #e8e8e8;
+	border: 1px solid #8F6B52;
 	}
+	
 .contact-right textarea{
 	width: 100%;
-	color: #63c6ae;
+	color: #8F6B52;
 	font-size:14px;
 	resize: none;
 	height: 185px;
 	padding: 12px;
 	outline: none;
-	border: 1px solid #e8e8e8;
+	border: 1px solid #8F6B52;
 	}
 .contact-form input[type=submit] {
 	color: #FDFFF4;
@@ -996,7 +997,7 @@ font-size:14px;
 	cursor: pointer;
 	font-weight: 500;
 	border:none;
-	background:#63c6ae;
+	background:#8F6B52;
 	}
 .contact-form input[type=submit]:hover {
 	background:#455357;
@@ -1007,13 +1008,17 @@ font-size:14px;
 	-moz-transition: .5s all;	
 	}
 .contact-info h3{
+  font-family:'Lora';
+  color: #8F6B52;
   margin: 0;
-  color: #737c85;
   font-size: 24px;
   font-weight: bold;
 }
 .contact-info h3 span {
-  color: #63c6ae;
+   color: #E3C567;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
 }
 .contact-map{
 width:100%;
@@ -1188,14 +1193,14 @@ padding-bottom:3em;
 
 }
 .business-right h3{
-color: #63c6ae;
-margin: 0;
-font-size: 24px;
-font-weight: bold;
-line-height:1.8em;
+font-family:'Lora';
+  color: #8F6B52;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
 }
 .business-right p{
-color: #737c85;
+color: #8F6B52;
 margin: 15px 0 40px 0;
 font-size: 14px;
 line-height:1.8em;
@@ -1227,13 +1232,17 @@ padding:100px 0px;
 margin-bottom:50px;
 }
 .business-info h3{
+ font-family:'Lora';
+  color: #8F6B52;
   margin: 0;
-  color: #737c85;
   font-size: 24px;
   font-weight: bold;
 }
 .business-info h3 span {
-  color: #63c6ae;
+  color: #E3C567;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
 }
 .business-grids{
 margin-top:50px;
