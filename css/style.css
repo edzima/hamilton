@@ -57,7 +57,7 @@ padding:0;
 		background:    -moz-linear-gradient(to top, #fdfff4, transparent 100%); /* For Firefox (3.6 to 15) */
 		background:      -o-linear-gradient(to top, #fdfff4, transparent 100%); /* For old Opera (11.1 to 12.0) */ 
 		background:         linear-gradient(180deg, #fdfff4, transparent 100%); /* Standard syntax; must be last */
-		
+		border-bottom: 1px solid #8F6B52;
 		
 }
 .scroll {
@@ -1003,7 +1003,7 @@ img.zoom-img:hover {
 /*---*/
 .portfolio-wrapper img{
 	width:100%;
-	opacity:0.85;
+	opacity:0.95;
 }
 .portfolio-wrapper img:hover{
 	opacity:1;
@@ -1012,9 +1012,10 @@ img.zoom-img:hover {
 	position: absolute;
 	bottom: 0;
 	padding-left:5%;
-	background-color:rgba(143,107,82,0.5);
+	background-color:#8f6b52;
+	opacity:0.9;
 	width: 100%;
-	min-height: 80px;
+	min-height: 60px;
 	display:none;
 
 }
@@ -1137,7 +1138,7 @@ font-size:14px;
 	background:#FDFFf4;
 	}
 .contact-info {
-	margin-bottom: 50px;
+	margin: 30px 0;
 	}
 .contact-left{
 	width:30%;
@@ -1190,6 +1191,7 @@ font-size:14px;
   margin: 0;
   font-size: 24px;
   font-weight: bold;
+  
 }
 .contact-info h3 span {
    color: #E3C567;
@@ -1406,7 +1408,7 @@ padding:100px 0px;
   color: #737c85;
 }
 .business-info{
-margin-bottom:50px;
+margin:30px 0;
 }
 .business-info h3{
  font-family:'Lora';
@@ -1451,7 +1453,7 @@ width:90%;
 /*-- //business-page --*/
 /*-- how-we-help-page --*/
 .help-info {
-	margin-top:20px;
+	margin-top:40px;
 }
 .help-info h3{
 font-family:'Lora';
@@ -1530,10 +1532,11 @@ padding:40px 0;
 padding:40px 0;
 }
 .our-approach h3{
-  margin: 0;
-  color: #8F6B52;
-  font-size: 24px;
-  font-weight: bold;
+ font-family: 'Lora';
+color: #8F6B52;
+margin: 0;
+font-size: 24px;
+font-weight: bold;
 }
 .our-approach h3 span {
   color: #E3C567;
