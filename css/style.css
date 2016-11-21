@@ -1003,8 +1003,11 @@ img.zoom-img:hover {
 /*---*/
 .portfolio-wrapper img{
 	width:100%;
+	opacity:0.85;
 }
-
+.portfolio-wrapper img:hover{
+	opacity:1;
+}
 .simple-in{
 	position: absolute;
 	bottom: 0;
@@ -1012,8 +1015,14 @@ img.zoom-img:hover {
 	background-color:rgba(143,107,82,0.5);
 	width: 100%;
 	min-height: 80px;
+	display:none;
 
 }
+
+.portfolio-wrapper:hover div.simple-in {
+display:block;
+}
+
 .simple-in h3{
 
 	font-size: 16px;
@@ -1763,9 +1772,7 @@ color:#454e51;
 	.col-md-8.port-right {
 	  width: 58%;
 	  }
-	.port-left {
-	  min-height: 775px !important;
-	}
+
 	.busi-pos {
 	  top: 51.7%;
 	  }
@@ -1824,9 +1831,7 @@ color:#454e51;
 	.col-md-8.port-right {
 	  width: 60%;
 	}
-	.port-left {
-	  min-height: 768px !important;
-	}
+
 	.sec-slid-info h3 {
 	  font-size: 22px;
 	  }
@@ -1861,9 +1866,7 @@ color:#454e51;
 	.col-md-6.slider-grid:nth-child(1) {
 	  margin-right: 34px;
 	}
-	.port-left {
-	  padding: 70px 0 0 0;
-	  }
+
 	.nbs-flexisel-nav-right {
 	  right: 5.3%;
 	  }
@@ -1892,9 +1895,7 @@ color:#454e51;
 	.uparrow img {
 	  width: 72%;
 	}
-	.port-left {
-	  padding: 50px 0 0 0;
-	  }
+
 	ul#filters {
 	  margin: 0 0 0 52px;
 	}
@@ -2028,9 +2029,7 @@ color:#454e51;
 	.article-info p {
 	  font-size: 13px;
 	}
-	.col-md-4.port-left {
-	  width: 27%;
-	}
+
 	.col-md-8.port-right {
 	  width: 70%;
 	}
@@ -2040,9 +2039,7 @@ color:#454e51;
 	.port-grid {
 	  margin-left: 22px;
 	}
-	.port-left {
-	  min-height: 660px !important;
-	}
+
 	#filters li span {
 	  font-size: 13px;
 	  }
@@ -2300,10 +2297,7 @@ color:#454e51;
 	.article-info p a.plus {
 	  background: url(../images/plus.png) no-repeat 0px 2px;
 	  }
-	.col-md-4.port-left {
-	  width: 27%;
-	  float: left;
-	}
+
 	.col-md-8.port-right {
 	  width: 72%;
 	  float: left;
@@ -2311,9 +2305,7 @@ color:#454e51;
 	.port-grid {
 	  margin-left: 17px;
 	}
-	.port-left {
-	  min-height: 530px !important;
-	}
+
 	.sec-slid-info {
 	  width: 85%;
 	  margin: 0 auto;
@@ -2540,9 +2532,7 @@ span.menu {
 	#filters li span {
 	  margin: 24px 0px;
 	  }
-	.port-left {
-	  padding: 40px 0 0 0;
-	}
+
 	.port-grid {
 	  width: 29%;
 	  }
@@ -2559,9 +2549,7 @@ span.menu {
 	  padding: 9px 21px;
 	  font-size: 14px;
 	}
-	.port-left {
-	  min-height: 438px !important;
-	}
+
 	.second-slider {
 	  padding: 40px 0 100px 0;
 	}
@@ -2807,14 +2795,7 @@ span.menu {
 	#filters li span {
 	  margin: 7px 0px;
 	}
-	.port-left {
-	  min-height: 105px !important;
-	  padding:20px 0;
-	}
-	.col-md-4.port-left {
-	  width: 100%;
-	  float: left;
-	}
+
 	.col-md-8.port-right {
 	  width: 100%;
 	  float: left;
