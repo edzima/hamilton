@@ -18,19 +18,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- for-mobile-apps -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="Infusion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		<meta name="keywords" content="Infusion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
 		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- //for-mobile-apps -->
 	<!-- js -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
 	<!-- js -->
 	<!-- start-smooth-scrolling -->
 		<script type="text/javascript" src="js/move-top.js"></script>
 		<script type="text/javascript" src="js/easing.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
@@ -54,7 +55,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="contact.html">CONTACT</a></li>
 				</ul>
 				<!-- script for menu -->
-					<script> 
+					<script>
 						$( "span.menu" ).click(function() {
 						$( "ul.nav1" ).slideToggle( 300, function() {
 						 // Animation complete.
@@ -92,13 +93,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<p>She is listed among the 50 citizens of Polish ethnic background, who made a significant impact on the life and history of the British Isles, among General Anders, Joseph Conrad, King Canute and Roman Polanski.</p>
 				</div>
 
-			
+
 			<div class="col-md-6 slider-grid">
 				<div class="slider-grid pi">
 				<p>"I think about the portait painting just like truth and pleasure, true pleasure and pleasurable ture. I present my sitters the way they would like to see themselves. The best pose, the most elegant outfit. I emphasise those characteristics that are most beautiful about the person."</p>
 				</div>
 				<p> text<p/>
-				<a href='about.html'>Read whole story</a> 
+				<a href='about.html'>Read whole story</a>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -185,9 +186,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<!-- responsiveslides -->
 		<div  id="top" class="callbacks_container">
 					<ul class="rslides" id="slider4">
-					
+
 						<li>
-						
+
 							<div class="sec-slid-info">
 								<a href='testimonials.html'>
 								<img src="images/quotation11.png" alt=""/>
@@ -220,7 +221,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</ul>
 		</div>
 	</div>
-</div>	
+</div>
 <!-- //slider -->
 <!-- footer -->
 <div class="footer">
@@ -229,13 +230,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-md-5 footer-grid">
 				<p>©2016 Barbara Hamilton</p>
 			</div>
-			
+
 			<div class="col-md-2 footer-grid">
 			<!--/*weź pan to wyśrodkuj bo nie wytrzymie*/-->
 				<ul class="social list-inline">
 					<li class="col-md-4"> <a href="http://facebook.com/basia"><i class="fa fa-facebook"></i></a></li>
-					<li class="col-md-4"> <a href="https://twiiter.com/basia"><i class="fa fa-twitter"></i> </a></li> 
-					<li class="col-md-4"> <a href="https://twiiter.com/basia"><i class="fa fa-instagram"></i> </a></li>     							
+					<li class="col-md-4"> <a href="https://twiiter.com/basia"><i class="fa fa-twitter"></i> </a></li>
+					<li class="col-md-4"> <a href="https://twiiter.com/basia"><i class="fa fa-instagram"></i> </a></li>
 				</ul>
 			</div>
 			<div class="col-md-5 footer-grid">
@@ -254,23 +255,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			containerID: 'toTop', // fading element id
 			containerHoverID: 'toTopHover', // fading element hover id
 			scrollSpeed: 1200,
-			easingType: 'linear' 
+			easingType: 'linear'
 			};
-		*/								
+		*/
 		$().UItoTop({ easingType: 'easeOutQuart' });
-		
-		$(window).scroll(function() {    
-			
-			var scroll = $(window).scrollTop();
 
-			if (scroll >= 20) {
-				$(".header").addClass("scroll");
-			} else {
-				$(".header").removeClass("scroll");
-			}
-		});
-		
-		
+
+
+
 		});
 	</script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
